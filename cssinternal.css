@@ -1,0 +1,15 @@
+/* SELEKTOR TAG */
+p {
+    color: blue;
+}
+
+/* PERBEDAAN SELEKTOR TAG DAN CLASS */
+.container{
+    color: antiquewhite;
+}
+
+/* selector id */
+
+#home{
+    color: rgb(37, 219, 80);
+}

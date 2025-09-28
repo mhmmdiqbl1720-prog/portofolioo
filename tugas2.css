@@ -1,0 +1,70 @@
+/* Background & Text Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+.artikel {
+  background-color: #cc6666;
+  color: #fff;
+  padding: 20px;
+  text-align: justify;
+}
+
+.artikel h2 {
+  background-color: maroon;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.artikel a {
+  color: yellow;
+  text-decoration: none;
+}
+.artikel a:hover {
+  color: cyan;
+  text-decoration: underline;
+}
+
+/* Font Styling */
+.font-sample {
+  font-size: 18px;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* List Styling */
+ul.square {
+  list-style-type: square;
+}
+ol.roman {
+  list-style-type: upper-roman;
+}
+
+/* Table Styling */
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 10px 0;
+}
+th {
+  background-color: #0d6efd;
+  color: #fff;
+  padding: 10px;
+}
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+/* Box Model */
+.box {
+  margin: 20px;
+  padding: 15px;
+  border: 3px solid #0d6efd;
+  outline: 2px dashed #ff5733;
+  background: #e8f0fe;
+}
